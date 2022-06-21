@@ -1,24 +1,13 @@
-import logo from './logo.svg';
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <div className="ApP">
+      {/* <h2 className='position' style={{ paddingLeft: '75px', border: '5px solid red', marginLeft: "550px", marginRight: "500px", marginTop: "560px" }} >Here As my wish</h2> */}
+
+
+      <h2 className='position' style={{ textAlign: "center" }}>Here As my wish</h2>
+    </div >
   );
 }
 
